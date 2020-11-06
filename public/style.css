@@ -1,0 +1,61 @@
+
+
+body {
+  font-family: Verdana;
+}
+
+img {
+  max-width: 50%;
+  height: 50%;
+}
+
+p {
+  margin: 12px 0 0 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+small {
+  color: #006ae4;
+}
+
+header {
+  background-color: rgb(37, 37, 241);
+  color: #fff;
+  padding: 3px;
+  height: 40px;
+}
+
+header > img {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border: 1px white solid;
+  vertical-align: bottom;
+}
+
+
+
+label {
+  float: left;
+  width: 60px;
+}
+
+
+.athlete-list {
+  background-color: #f6f6ef;
+  width: 85%;
+  margin: 12px auto;
+  padding-bottom: 25px;
+}
+
+.athlete-item {
+  padding: 0 15px;
+}
+
+
+
+
