@@ -1,6 +1,3 @@
-const time = require('node-time-ago')
-
-
 const athleteList = (post)=>{
   return `<html>
   <head>
@@ -10,6 +7,9 @@ const athleteList = (post)=>{
   <body>
     <div class="athlete-list">
       <header><img src="/nbalogo.jpg"/>Basketball Legends</header>
+      <div class = 'gif'>
+      <img src="/basketball.gif"/>
+      </div>
       ${post.map(post => `
         <div class='athlete-item'>
           <p>

@@ -14,13 +14,16 @@ const athletedetails = (post)=>{
             
           </p>
           <p>
-          Age ${post.age}, Height ${post.height}
+          <b>Age</b> ${post.age}
           </p>
           <p>
-            Championships ${post.rings} 
+           <b>Height: </b>${post.height}
           </p>
           <p>
-          College ${post.college} 
+          <b> Championships: </b>${post.rings} 
+          </p>
+          <p>
+          <b>College:</b> ${post.college} 
         </p>
         
         </div>
