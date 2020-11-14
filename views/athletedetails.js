@@ -2,7 +2,7 @@
 const athletedetails = (post)=>{
   return `<html>
   <head>
-    <title>${post.name}</title>
+    <title>${post.userid}</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>

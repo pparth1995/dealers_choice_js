@@ -15,7 +15,7 @@ const athleteList = (post)=>{
           <p>
           <a href="/posts/${post.id}">${post.name}</a>
           <small>
-          ${post.description}
+          ${post.descrip}
            </small>
         </div>`
       ).join('')}
